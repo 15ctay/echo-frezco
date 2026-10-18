@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trade Block · Echo Frezco Keeper League</title><meta name="description" content="Echo Frezco Keeper League 2026 — standings, results, power rankings and news.">
+<link rel="stylesheet" href="assets/style.css"><link rel="icon" href="assets/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><meta name="theme-color" content="#52453a"></head><body>
+<header class="nav"><div class="wrap navin"><a class="brand" href="index.html"><img class="brandlogo" src="assets/logo.png" alt=""> Echo Frezco Keeper League <small>2026</small></a>
+<button class="burger" aria-label="Menu" onclick="document.body.classList.toggle('open')">☰</button>
+<nav><a href="index.html">Home</a><a href="standings.html">Standings</a><a href="results.html">Results</a><a href="power-rankings.html">Power Rankings</a><a href="projected-keepers.html">Projected Keepers</a><a href="trade-block.html" class="on">Trade Block</a><a href="teams/index.html">Teams</a><a href="news/index.html">News</a><a href="transactions.html">Transactions</a><a href="league.html">League Info</a></nav></div></header>
+<main class="wrap"><h1>Trade Block</h1>
+<p class="lede">Who's available, and what they want for him. Trade deadline: <b>November 28, 2026</b>.</p>
+<div class="card empty"><div class="big">🌮</div><h3>Nobody's on the block yet.</h3><p>The kitchen's quiet. Be the first: use the form below to put someone up for trade.</p></div>
+<section class="card tbform"><h2>Submit to the block</h2>
+<p class="note">No login needed. Fill this in, then send it with a button below. It goes to the commissioner/site keeper, who adds it to the page next time the site updates. Nothing is posted automatically.</p>
+<form id="tbf" onsubmit="return false"><label>Your team<select name="team" required><option value="">Pick your team…</option><option>Bijan in the Nico Time</option><option>BK The King</option><option>Brock Tuah</option><option>Love Thy Nabers</option><option>King of Onlyfannins 🤴🤴</option><option>Goldie</option><option>I Can’t Hear Shit</option><option>Backshots R Us!</option><option>Oldest Team on Earth</option><option>The Josh Allen Red Rockets</option><option>OnlyFannins</option><option>The Man in Jahmyrror</option></select></label>
+<label>Player(s) you're shopping<input name="players" required placeholder="e.g. CeeDee Lamb"></label>
+<label>What you want back<input name="wants" placeholder="e.g. RB2 + a TE upgrade"></label>
+<label>Anything else? <span class="muted">(optional)</span><textarea name="notes" rows="2" placeholder="e.g. Open to 2-for-1s"></textarea></label>
+<div class="btns"><button type="button" data-how="copy">📋 Copy for the group chat</button><button type="button" class="ghost" data-how="gh">GitHub issue (if you have an account)</button></div><p id="tbmsg" class="note" role="status"></p></form></section>
+<script>(function(){var F=document.getElementById('tbf'),M=document.getElementById('tbmsg'),E="",S="",R="15ctay/echo-frezco";
+function v(n){return (F.elements[n].value||'').trim();}
+function txt(){var d=new Date().toISOString().slice(0,10);return 'TRADE BLOCK\nTeam: '+v('team')+'\nPlayer(s): '+v('players')+'\nLooking for: '+(v('wants')||'best offer')+(v('notes')?'\nNotes: '+v('notes'):'')+'\nDate: '+d;}
+F.querySelectorAll('button').forEach(function(b){b.addEventListener('click',function(){if(!v('team')||!v('players')){M.textContent='Pick your team and name at least one player first.';return;}
+var t=txt(),subj='Trade block: '+v('team')+' – '+v('players'),h=b.dataset.how;
+if(h==='email')location.href='mailto:'+E+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(t);
+else if(h==='sms')location.href='sms:'+S+'?&body='+encodeURIComponent(t);
+else if(h==='gh')window.open('https://github.com/'+R+'/issues/new?template=trade-block.md&labels=trade-block&title='+encodeURIComponent(subj)+'&body='+encodeURIComponent(t),'_blank','noopener');
+else{(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){M.textContent='Copied! Paste it in the league chat or send it to the commish.';},function(){window.prompt('Copy this:',t);});return;}
+M.textContent='Opening your app… if nothing happens, use “Copy” instead.';});});})();</script></main>
+<footer><div class="wrap">Data from Yahoo Fantasy. Updated Fri Oct 16 11:51pm PDT. <span class="muted">· Site built Oct 18, 2026 · Unofficial league site, not affiliated with Yahoo.</span></div></footer>
+</body></html>
