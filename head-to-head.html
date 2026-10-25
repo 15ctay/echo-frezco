@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="assets/style.css"><link rel="icon" href="assets/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><meta name="theme-color" content="#52453a"></head><body>
 <header class="nav"><div class="wrap navin"><a class="brand" href="index.html"><img class="brandlogo" src="assets/logo.png" alt=""> Echo Frezco Keeper League <small>2026</small></a>
 <button class="burger" aria-label="Menu" onclick="document.body.classList.toggle('open')">☰</button>
-<nav><a href="index.html">Home</a><a href="standings.html">Standings</a><a href="results.html">Results</a><a href="power-rankings.html">Power Rankings</a><a href="projected-keepers.html">Projected Keepers</a><a href="trade-block.html">Trade Block</a><a href="head-to-head.html" class="on">Head-to-Head</a><a href="hall-of-fame.html">Hall of Fame</a><a href="teams/index.html">Teams</a><a href="news/index.html">News</a><a href="transactions.html">Transactions</a><a href="league.html">League Info</a></nav></div></header>
+<nav><a href="index.html">Home</a><a href="standings.html">Standings</a><a href="results.html">Results</a><a href="power-rankings.html">Power Rankings</a><a href="projected-keepers.html">Projected Keepers</a><a href="trade-block.html">Trade Block</a><a href="head-to-head.html" class="on">Head-to-Head</a><a href="hall-of-fame.html">Hall of Fame</a><a href="wags.html">WAGs</a><a href="teams/index.html">Teams</a><a href="news/index.html">News</a><a href="transactions.html">Transactions</a><a href="league.html">League Info</a></nav></div></header>
 <main class="wrap"><h1>Head-to-Head</h1>
 <p class="lede">Every manager against every manager, all time. Records follow the <b>manager</b>, not the team name, which changes every year.</p>
 <p class="note">Seasons 2018-2026. 2026 counts completed weeks only (through Week 6). Regular season + playoffs; consolation games are not counted.</p>
@@ -25,5 +25,5 @@ var c=w>l?'pos':w<l?'neg':'';return '<tr><td>'+o.n+'</td><td class="'+c+'">'+rc(
 sum.textContent=m.n+': '+rc(W,L,T)+' all-time vs the league · seasons '+m.seasons[0]+'-'+m.seasons[m.seasons.length-1]+' ('+m.seasons.length+')';}
 sel.addEventListener('change',draw);draw();
 document.querySelectorAll('.h2hb').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.h2hb').forEach(function(x){x.classList.toggle('on',x===b)});document.querySelectorAll('.h2hmx').forEach(function(t){t.hidden=t.dataset.m!==b.dataset.m})})});})();</script></main>
-<footer><div class="wrap">Data from Yahoo Fantasy. Updated Mon Oct 19 11:54pm PDT. <span class="muted">· Site built Oct 24, 2026 · Unofficial league site, not affiliated with Yahoo.</span></div></footer>
+<footer><div class="wrap">Data from Yahoo Fantasy. Updated Mon Oct 19 11:54pm PDT. <span class="muted">· Site built Oct 25, 2026 · Unofficial league site, not affiliated with Yahoo.</span></div></footer>
 </body></html>
