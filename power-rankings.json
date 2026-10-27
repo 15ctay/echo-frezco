@@ -1,122 +1,122 @@
 [
  {
   "rank": 1,
-  "team": "OnlyFannins",
-  "manager": "Anthony",
-  "score": 91,
-  "record": "5-1-0",
-  "pf": 876.84,
-  "form": 156.76,
-  "blurb": "5-1 with 876.84 PF (#3 in the league). The team everyone is chasing."
+  "team": "Love Thy Nabers",
+  "manager": "mark",
+  "score": 82.9,
+  "record": "4-3-0",
+  "pf": 1041.72,
+  "form": 156.85,
+  "blurb": "4-3 with 1041.72 PF (#1 in the league). The team everyone is chasing."
  },
  {
   "rank": 2,
   "team": "Brock Tuah",
   "manager": "Ronald (co-manager: ctay)",
-  "score": 81.3,
-  "record": "4-2-0",
-  "pf": 891.54,
-  "form": 147.45,
-  "blurb": "Hottest stretch around: 147.45 per game over the last two. Last out: W 140.82-118.70."
+  "score": 80.8,
+  "record": "5-2-0",
+  "pf": 1035,
+  "form": 142.14,
+  "blurb": "Hottest stretch around: 142.14 per game over the last two. Last out: W 143.46-101.52."
  },
  {
   "rank": 3,
-  "team": "Bijan in the Nico Time",
-  "manager": "ABMCommissioner",
-  "score": 73.4,
-  "record": "4-2-0",
-  "pf": 892.78,
-  "form": 132.9,
-  "blurb": "4-2, 892.78 PF (#1). Coming off a 107.92-point loss."
+  "team": "OnlyFannins",
+  "manager": "Anthony",
+  "score": 78.6,
+  "record": "6-1-0",
+  "pf": 1015.46,
+  "form": 130.34,
+  "blurb": "6-1, 1015.46 PF (#3). Coming off a 138.62-point win."
  },
  {
   "rank": 4,
-  "team": "Love Thy Nabers",
-  "manager": "mark",
-  "score": 64.8,
-  "record": "3-3-0",
-  "pf": 868.2,
-  "form": 136.06,
-  "blurb": "3-3, 868.20 PF (#4). Coming off a 140.18-point loss."
+  "team": "The Man in Jahmyrror",
+  "manager": "Joshua",
+  "score": 67.5,
+  "record": "5-2-0",
+  "pf": 974.2,
+  "form": 129.47,
+  "blurb": "5-2, 974.20 PF (#5). Coming off a 152.90-point win."
  },
  {
   "rank": 5,
-  "team": "The Man in Jahmyrror",
-  "manager": "Joshua",
-  "score": 59.3,
-  "record": "4-2-0",
-  "pf": 821.3,
-  "form": 126.49,
-  "blurb": "4-2, 821.30 PF (#5). Coming off a 106.04-point loss."
+  "team": "Bijan in the Nico Time",
+  "manager": "ABMCommissioner",
+  "score": 56.3,
+  "record": "4-3-0",
+  "pf": 1004.76,
+  "form": 109.95,
+  "blurb": "4-3, averaging 109.95 over the last two (#10 in form). Time to tinker."
  },
  {
   "rank": 6,
-  "team": "Backshots R Us!",
-  "manager": "Adrian",
-  "score": 57.2,
-  "record": "4-2-0",
-  "pf": 768.08,
-  "form": 136.93,
-  "blurb": "4-2 on just 768.08 PF (#7). Wins are wins, but the schedule has been kind."
+  "team": "The Josh Allen Red Rockets",
+  "manager": "Antonio",
+  "score": 55.7,
+  "record": "4-3-0",
+  "pf": 947.08,
+  "form": 123.61,
+  "blurb": "4-3 on just 947.08 PF (#6). Wins are wins, but the schedule has been kind."
  },
  {
   "rank": 7,
-  "team": "The Josh Allen Red Rockets",
-  "manager": "Antonio",
-  "score": 47.3,
-  "record": "3-3-0",
-  "pf": 816.26,
-  "form": 118.4,
-  "blurb": "3-3, averaging 118.40 over the last two (#10 in form). Time to tinker."
+  "team": "Backshots R Us!",
+  "manager": "Adrian",
+  "score": 50.5,
+  "record": "4-3-0",
+  "pf": 869.6,
+  "form": 132.68,
+  "blurb": "4-3 on just 869.60 PF (#7). Wins are wins, but the schedule has been kind."
  },
  {
   "rank": 8,
   "team": "King of Onlyfannins 🤴🤴",
   "manager": "dylan",
-  "score": 34.6,
-  "record": "3-3-0",
-  "pf": 695.68,
-  "form": 127.47,
-  "blurb": "3-3, 695.68 PF (#9). Coming off a 118.70-point loss."
+  "score": 31.2,
+  "record": "3-4-0",
+  "pf": 813.3,
+  "form": 118.16,
+  "blurb": "3-4, 813.30 PF (#9). Coming off a 117.62-point loss."
  },
  {
   "rank": 9,
   "team": "Goldie",
   "manager": "Jeff",
-  "score": 31.5,
-  "record": "1-5-0",
-  "pf": 661.38,
-  "form": 154.98,
-  "blurb": "Hottest stretch around: 154.98 per game over the last two. Last out: W 149.80-140.18."
+  "score": 31,
+  "record": "2-5-0",
+  "pf": 785.72,
+  "form": 137.07,
+  "blurb": "Hottest stretch around: 137.07 per game over the last two. Last out: W 124.34-98.50."
  },
  {
   "rank": 10,
   "team": "Oldest Team on Earth",
   "manager": "Chris",
-  "score": 30.6,
-  "record": "2-4-0",
-  "pf": 750.7,
-  "form": 117.73,
-  "blurb": "2-4, averaging 117.73 over the last two (#11 in form). Time to tinker."
+  "score": 23.3,
+  "record": "2-5-0",
+  "pf": 851.58,
+  "form": 103.6,
+  "blurb": "2-5, averaging 103.60 over the last two (#12 in form). Time to tinker."
  },
  {
   "rank": 11,
   "team": "BK The King",
   "manager": "Brian",
-  "score": 21.4,
-  "record": "2-4-0",
-  "pf": 676.5,
-  "form": 120.82,
-  "blurb": "2-4, 676.50 PF (#10). Coming off a 90.14-point loss."
+  "score": 20.9,
+  "record": "2-5-0",
+  "pf": 806.78,
+  "form": 110.21,
+  "blurb": "2-5, 806.78 PF (#10). Coming off a 130.28-point loss."
  },
  {
   "rank": 12,
   "team": "I Can’t Hear Shit",
   "manager": "Benedetto",
-  "score": 6.7,
-  "record": "1-5-0",
-  "pf": 655.82,
-  "form": 111.85,
-  "blurb": "1-5, averaging 111.85 over the last two (#12 in form). Time to tinker."
+  "score": 7.1,
+  "record": "1-6-0",
+  "pf": 754.32,
+  "form": 106.64,
+  "blurb": "1-6, averaging 106.64 over the last two (#11 in form). Time to tinker."
  }
 ]
